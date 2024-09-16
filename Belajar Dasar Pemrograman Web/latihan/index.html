@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman profil bandung</title>
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <div class="jumbotron">
         <h1>Bandung</h1>
         <p>
             Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi
             tersebut.
         </p>
-
+        </div>
         <nav>
             <ul>
                 <li>
@@ -32,10 +39,10 @@
 
     <main>
         <div id="content">
-            <article id="sejarah">
+            <article id="sejarah" class="card">
                 <h2>Sejarah</h2>
-                <figure style="text-align: center;">
-                    <img src="assets/image/history.jpg" alt="Sejarah" width="500">
+                <figure>
+                    <img src="assets/image/history.jpg" alt="sejarah" class="featured-image" >
                 </figure>
                 <p>
                     Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh
@@ -56,10 +63,10 @@
             </article>
             </p>
 
-            <article id="geografis">
+            <article id="geografis" class="card">
                 <h2>Geografis</h2>
-                <figure style="text-align: center;">
-                    <img src="assets/image/geografis.jpg" alt="Geografis" width="500">
+                <figure>
+                    <img src="assets/image/geografis.jpg" alt="geografis" class="featured-image">
                 </figure>
                 <p>
                     Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah
@@ -78,7 +85,7 @@
             </article>
 
 
-            <article id="wisata">
+            <article id="wisata" class="card">
                 <h2>Wisata</h2>
                 <p>
                     Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati
@@ -90,8 +97,8 @@
                 <section>
 
                     <h3>Farm House Lembang</h3>
-                    <figure style="text-align: center;">
-                        <img src="assets/image/farm-house.jpg" alt="Farm house" width="500">
+                    <figure>
+                        <img src="assets/image/farm-house.jpg" alt="farm house" class="featured-image">
                         <figcaption>Lembang</figcaption>
                         <p>
                             Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah
@@ -107,8 +114,8 @@
                 <section>
 
                     <h3>Observatorium Bosscha</h3>
-                    <figure style="text-align: center;">
-                        <img src="assets/image/bosscha.jpg" alt="Bosscha" width="500">
+                    <figure>
+                        <img src="assets/image/bosscha.jpg" alt="bosscha" class="featured-image" >
                         <figcaption>Bosscha</figcaption>
 
                         <p>
@@ -132,7 +139,7 @@
         </div>
 
         <aside>
-            <article>
+            <article class="profile card">
                 <header>
                     <h2>kota Bandung</h2>
                     <p>Kota Kembang Paris Van Java</p>
@@ -144,7 +151,7 @@
 
                 <section>
                     <h3>Informasi Lainnya</h3>
-                    
+
                     <table>
                         <tr>
                             <td>Negara</td>
@@ -163,9 +170,9 @@
                             <td>Betawi</td>
                         </tr>
                         <tr>
-                            <th>Kode Telepon</th>
+                            <td>Kode Telepon</td>
                             <td>+62 22</td>
-                          </tr>
+                        </tr>
                     </table>
                 </section>
             </article>
@@ -173,7 +180,7 @@
 
     </main>
 
-    <footer style="text-align: center;">
+    <footer>
         &copy; Belajar Dasar Pemrograman Web &#169; 2024, Bima Dharma Yahya
     </footer>
 </body>
