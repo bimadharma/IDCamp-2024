@@ -68,6 +68,7 @@ nav a:hover {
 .home {
   padding: 20px;
   font-size: large;
+  margin: 20px;
 }
 .home h1 {
   margin-bottom: 3rem;
@@ -79,6 +80,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap; 
   margin: 20px 0;
+  align-items: center;
 }
 
 article {
@@ -91,31 +93,48 @@ article {
 
 
 aside {
-  flex: 1;
   background-color: #f9f9f9;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  margin-left: 20px;
+  margin: 20px;
   text-align: center;
+  width: 20rem;
 }
 
 aside img {
-  width: 100%;
+  width: 300px; 
   height: auto;
   border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
-aside ul {
+.text-content ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px;
   list-style-type: none;
   padding: 0;
+  margin-top: 2rem;
 }
 
-aside ul li {
-  margin-bottom: 10px;
-  font-weight: bold;
+.text-content ul li {
+  text-align: center; 
 }
+
+
+.text-content a {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.text-content a:hover {
+  background-color: #004d00;
+}
+
 
 .services-section {
   display: flex;
@@ -202,6 +221,10 @@ footer {
   .hamburger {
       display: flex; 
   }
+}
+
+@media (max-width: 1202px) {
+
 }
 
 
