@@ -27,7 +27,6 @@
       <ul class="nav-menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -103,6 +102,44 @@
           menerima perhatian dan rasa hormat yang maksimal.</p>
       </article>
     </section>
+
+    <section id="contact" class="contact-section">
+      <header>
+        <h2>Kontak Kami</h2>
+      </header>
+      
+      <div class="contact-info">
+        <article class="contact-details">
+          <h3>Informasi Kontak</h3>
+          <address>
+            <p><strong>Alamat:</strong> Jalan Bogor, ndonesia</p>
+            <p><strong>Telepon:</strong> (62) 123-4567</p>
+            <p><strong>Email:</strong> <a href="mailto:bimdarma@gmail.com">bimdarma@gmail.com</a></p>
+          </address>
+        </article>
+    
+        <article class="contact-form">
+          <h3>Formulir Kontak</h3>
+          <form action="/submit-form" method="post">
+            <div class="form-group">
+              <label for="name">Nama:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Pesan:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            
+            <button class="submit" type="submit">Kirim</button>
+          </form>
+        </article>
+      </div>
   </main>
 
   <footer>
