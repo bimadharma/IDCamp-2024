@@ -1,10 +1,10 @@
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(235, 255, 213);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(235, 255, 213);
 
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 
 .navbar-container {
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .hamburger {
-  display: none; 
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -79,7 +79,7 @@ nav a:hover {
 .container {
   padding-top: 90px;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 20px 0;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ aside {
 }
 
 aside img {
-  width: 300px; 
+  width: 300px;
   height: auto;
   border-radius: 5px;
   margin-bottom: 1rem;
@@ -112,7 +112,7 @@ aside img {
 
 .text-content ul {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   list-style-type: none;
   padding: 0;
@@ -120,7 +120,7 @@ aside img {
 }
 
 .text-content ul li {
-  text-align: center; 
+  text-align: center;
 }
 
 
@@ -148,15 +148,15 @@ aside img {
 
 .service-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 20px 0;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .service-card {
   text-align: center;
   margin: 20px;
-  flex: 1 1 300px; 
+  flex: 1 1 300px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -176,7 +176,7 @@ aside img {
   color: #666666;
 }
 
-/* Hover effect for cards */
+
 .service-card:hover {
   transform: translateY(-10px);
   background-color: beige;
@@ -185,11 +185,11 @@ aside img {
 
 .service-icon {
   font-size: 48px;
-  color: #4CAF50; /* Warna ikon sesuai dengan tema */
+  color: #4CAF50;
   margin-bottom: 15px;
 }
 
-/* Footer Styling */
+
 footer {
   text-align: center;
   background-color: burlywood;
@@ -210,30 +210,21 @@ footer {
   }
 
   .nav-menu {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      background-color: burlywood;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      padding: 20px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: burlywood;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px;
   }
 
   .nav-menu.active {
-      display: flex; 
+    display: flex;
   }
 
   .hamburger {
-      display: flex; 
+    display: flex;
   }
 }
-
-@media (max-width: 1202px) {
-
-}
-
-
-
-
- 
