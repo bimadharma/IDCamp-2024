@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: "Quicksand", sans-serif;
     /* font-weight: 300; */
@@ -52,7 +57,6 @@ body {
     border-radius: 10px;
 
     padding: 20px;
-    margin-top: 30px;
   }
 
   .jumbotron {
@@ -63,17 +67,61 @@ body {
     color: white;
   }
 
+  nav ul {
+    padding-inline: 4rem;
+    display: flex;
+
+    gap: 2rem;
+  }
+
   nav li {
-    display: inline;
     list-style-type: none;
-    margin-right:20px;
   }
 
   nav {
     background-color:#469a7d;
     padding: 5px;
+    position:sticky;
+    top:0;
   }
 
   main {
     padding: 20px;
+
+    display: flex;
+    gap: 1.5rem;
   }
+
+  #content {
+    flex: 5;
+
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  }
+
+  aside {
+    flex: 1;
+  }
+
+  header {
+    display: inline;
+  }
+
+  @media screen and (max-width: 1200px) {
+    main {
+      flex-flow: column nowrap;
+    }
+
+    main aside {
+      align-self: center;
+    }
+  
+  }
+
+  @media screen and (max-width:768px) {
+    nav ul {
+      justify-content: center;
+    }
+  }
+  
