@@ -7,4 +7,4 @@ Belajar Dasar Pemrograman Web [Sertifikat](https://www.dicoding.com/certificates
 
 
 Belajar Belajar Dasar Pemrograman JavaScript [Sertifikat](https://www.dicoding.com/certificates/07Z6488LMPQR/)
-- [Tugas Akhir](https:/bimadharma.github.io/IDCamp-2024/Belajar%20Dasar%20Pemrograman%20JavaScript/)
+- [Tugas Akhir](https:/bimadharma.github.io/IDCamp-2024/Belajar%20Dasar%20Pemrograman%20JJavaScript/final-assessment/)
