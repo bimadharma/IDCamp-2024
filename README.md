@@ -13,7 +13,7 @@ Belajar Belajar Dasar Pemrograman JavaScript [Sertifikat](https://www.dicoding.c
 
 
 Belajar membuat Front-End untuk pemula
-- [Latihan costom-event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/costum-event.html)
+- [Latihan custom-event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/custom-event.html)
 - [Latihan event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/event.html)
 - [Latihan input-event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/inputEvent.html)
--[todoapps](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/todoapps/index.html)
+- [todoapps](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/todoapps/index.html)
