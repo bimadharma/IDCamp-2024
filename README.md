@@ -17,3 +17,5 @@ Belajar membuat Front-End untuk pemula
 - [Latihan event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/event.html)
 - [Latihan input-event](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/inputEvent.html)
 - [todoapps](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/todoapps/index.html)
+- [storage-json](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/storage-json.html)
+- [tebakangka](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/tebakangka.html)
