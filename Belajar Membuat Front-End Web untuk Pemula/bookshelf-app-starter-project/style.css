@@ -1,0 +1,132 @@
+/* Gaya Umum */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #343a40;
+  }
+  
+  /* Styling untuk Form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+  }
+  
+ /* Styling umum untuk tombol */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px; /* Ubah padding untuk memperkecil ukuran tombol */
+    cursor: pointer;
+    font-size: 14px; /* Ubah ukuran font jika diperlukan */
+    display: inline-block; /* Agar tombol tidak memanjang */
+    margin: 5px; /* Berikan jarak antar tombol */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling khusus untuk tombol masukkan buku */
+  #bookFormSubmit {
+    width: 100%; /* Membuat tombol ini memanjang */
+  }
+
+  
+  /* Styling untuk input teks */
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 16px); /* Mengatur lebar input agar lebih pas */
+    padding: 8px; /* Padding input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  /* Styling untuk tombol lainnya agar tidak memanjang */
+  #searchSubmit,
+  [data-testid="bookItemIsCompleteButton"],
+  [data-testid="bookItemDeleteButton"],
+  [data-testid="bookItemEditButton"] {
+    width: auto; /* Membuat lebar tombol otomatis */
+    min-width: 100px; /* Atur lebar minimum */
+    max-width: 150px; /* Atur lebar maksimum */
+  }
+  
+  
+  /* Styling untuk Daftar Buku */
+  #incompleteBookList, #completeBookList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  [data-testid="bookItem"] {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  [data-testid="bookItem"] h3 {
+    margin: 0;
+  }
+  
+  [data-testid="bookItem"] p {
+    margin: 5px 0;
+  }
+  
+  /* Tombol di Daftar Buku */
+  [data-testid="bookItem"] button {
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 8px 12px; /* Padding untuk tombol */
+    border-radius: 5px; /* Sudut melingkar */
+    border: none; /* Menghilangkan border default */
+  }
+
+  /* Tombol Selesai Dibaca */
+.complete-button {
+    background-color: #28a745; /* Hijau untuk tombol selesai dibaca */
+    color: white;
+  }
+  
+  .complete-button:hover {
+    background-color: #218838; /* Warna lebih gelap saat hover */
+  }
+  
+  /* Tombol Hapus Buku */
+  .delete-button {
+    background-color: #dc3545; /* Merah untuk tombol hapus buku */
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Warna lebih gelap saat hover */
+  }
+  
+  /* Tombol Edit Buku */
+  .edit-button {
+    background-color: #ffc107; /* Kuning untuk tombol edit buku */
+    color: black; /* Teks hitam untuk kontras */
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800; /* Warna lebih gelap saat hover */
+  }
+
+  
+  
+  /* Responsivitas */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  }
+  

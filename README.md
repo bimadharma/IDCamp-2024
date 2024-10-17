@@ -19,3 +19,4 @@ Belajar membuat Front-End untuk pemula
 - [todoapps](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/todoapps/index.html)
 - [storage-json](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/storage-json.html)
 - [tebakangka](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/tebakangka.html)
+- [Tugas Akhir](https://bimadharma.github.io/IDCamp-2024/Belajar%20Membuat%20Front-End%20Web%20untuk%20Pemula/bookshelf-app-starter-project/index.html)
