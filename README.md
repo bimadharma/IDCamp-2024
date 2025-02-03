@@ -28,4 +28,4 @@ Belajar Fundamental Aplikasi Web dengan React [Sertifikat](https://www.dicoding.
 - [Latihan costom hooks](https://krg23n.csb.app/)  
 - [Latihan react context dark mode](https://ry8278.csb.app/)  
 - [Single Page Application](https://single-page-react-one.vercel.app/)  
-- [Submission Proyek]()  
+- [Submission Proyek](https://notes-app-bima.vercel.app/)  
