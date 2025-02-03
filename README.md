@@ -24,5 +24,8 @@ Belajar membuat Front-End untuk pemula [Sertifikat](https://www.dicoding.com/cer
 Belajar aplikasi web dengan react [Sertifikat](https://www.dicoding.com/certificates/0LZ04611KP65)
 - [Tugas Akhir](https://bima-idcamp-2024.vercel.app/)
 
-Belajar Fundamental Aplikasi Web dengan React
-- [Single Page Application]()  
+Belajar Fundamental Aplikasi Web dengan React [Sertifikat](https://www.dicoding.com/certificates/07Z63VVKJZQR)
+- [Latihan costom hooks](https://krg23n.csb.app/)  
+- [Latihan react context dark mode](https://ry8278.csb.app/)  
+- [Single Page Application](https://single-page-react-one.vercel.app/)  
+- [Submission Proyek]()  
